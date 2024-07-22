@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.logo {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 2px;
+}
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 10px;
+}
+.divider {
+    text-align: center;
+    margin: 5px 0;
+    color: #666;
+}
+input[type="email"], input[type="password"] ,input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.sign-in-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #7c5cfc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+}
+a {
+    color: #7c5cfc;
+    text-decoration: none;
+}
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.social-button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.social-button i {
+    font-size: 24px;
+}
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 110deg 180deg, #34a853 180deg 300deg, #fbbc05 300deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.fa-apple {
+    color: #000000;
+}
+.fa-facebook-f {
+    color: #1877F2;
+}
